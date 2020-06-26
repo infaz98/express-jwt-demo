@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const User = require('../models/User');
-const bcrypt = require('bcrypt');           //To hashed the password
+const bcrypt = require('bcrypt');           //To hash the password
 const jwt = require('jsonwebtoken');
 
 router.post('/register', async (req,res)=>{
